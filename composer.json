@@ -1,0 +1,21 @@
+{
+    "name": "lenada/honeybatcher",
+    "type": "honeybatcher application",
+    "description": "Moving batches of files around.",
+    "keywords": ["honeyBatcher, moving files"],
+    "homepage": "http://wesrc.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leander Damme",
+            "email": "leander@wesrc.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/console": "2.1.*"
+    },
+    "autoload": {
+        "psr-0": { "HoneyBatcher": "src/" }
+    }
+}
